@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- city-submit-form -->
+      <form class="city-submit-form active">
+        <h2 class="h2">Welcome to Weather App</h2>
+        <input
+          type="text"
+          class="city-name-input"
+          placeholder="Enter Your City Name..."
+        />
+        <button type="submit" class="submit-form-btn">Search</button>
+      </form>
+
+      <!-- weather ocntainer -->
+      <div class="weather-container">
+        <h4 class="city-name">Dhaka</h4>
+        <!-- current weather -->
+        <div class="current-weather">
+          <!-- temperature -->
+          <div class="temp"></div>
+          <!-- others details -->
+          <div class="others">
+            <span class="wind"></span>
+            <span class="precip"></span>
+            <span class="pressure"></span>
+          </div>
+        </div>
+
+        <!-- predicted weather -->
+        <div class="predicted-weather"></div>
+      </div>
+
+      <button class="back-btn">Back</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
