@@ -14,6 +14,7 @@ This is a weather app project created using HTML, CSS, and JavaScript. The app a
 - CSS
 - JavaScript
 - LocalStorage
+- [Visual Crossing API](https://www.visualcrossing.com/weather-api)
 
 ## How to Use
 
